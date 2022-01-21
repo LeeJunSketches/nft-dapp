@@ -1,0 +1,59 @@
+.card-nft {
+  width: 400px;
+  height: 550px;
+  border-radius: 23px;
+  z-index: 2;
+  background-color: #b4aee8;
+  overflow: hidden;
+
+  &__avatar {
+    height: 55%;
+    width: 100%;
+    z-index: 1;
+
+    img {
+      width: 100%;
+      height: 100%;
+    }
+  }
+
+  &__info {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 45%;
+    padding: 20px;
+    box-sizing: border-box;
+
+    span {
+        color: #440A67;
+    }
+
+    .info-label {
+        color: #93329E;
+    }
+
+    .info__title,
+    .info__description {
+      overflow: hidden;
+      text-overflow: ellipsis;
+      display: -webkit-box;
+      -webkit-line-clamp: 2; /* number of lines to show */
+      line-clamp: 2;
+      -webkit-box-orient: vertical;
+    }
+
+    .info__description {
+      margin-top: 10px;
+    }
+
+    .info__owner  {
+        margin-top: auto;
+    }
+
+    button {
+      margin-top: 10px;
+      margin-bottom: 0;
+    }
+  }
+}

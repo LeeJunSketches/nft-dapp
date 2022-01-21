@@ -5,6 +5,7 @@ function Page(props) {
   return (
     <div className="page">
       <HeaderBar />
+      <main>{props.children}</main>
     </div>
   );
 }
