@@ -1,0 +1,23 @@
+body {
+  margin: 0;
+  font-family: "Kanit", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+button.button-primary {
+  padding: 4px 15px 6px;
+  background-color: #FFE3FE;
+  color: #440A67;
+  border-radius: 22px;
+
+  &:hover {
+    background-color: #FFE3FE;
+    color: #440A67;
+  }
+}

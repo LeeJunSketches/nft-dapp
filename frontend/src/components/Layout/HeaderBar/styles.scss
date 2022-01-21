@@ -1,0 +1,13 @@
+.header-bar {
+    display: flex;
+    justify-content: space-between;
+    background-color: #440A67;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 20px;
+
+    .logo {
+        color: white;
+        font-size: 20px;
+    }
+}
